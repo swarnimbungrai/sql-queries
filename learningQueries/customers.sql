@@ -60,7 +60,7 @@ ORDER BY score DESC
  FROM customers
  GROUP BY country
 
- /*SELECT country, score --throws error as score is not either in aggregate function 
- FROM customers           --or the GROUPBY claude. 
+ /*SELECT country, score (throws error as score is not either in aggregate function or the GROUPBY clause.)
+ FROM customers           
  GROUP BY country */
  
