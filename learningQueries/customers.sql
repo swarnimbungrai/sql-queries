@@ -59,3 +59,8 @@ ORDER BY score DESC
 						   --u cannot use in any other qyery only can be used in this query
  FROM customers
  GROUP BY country
+
+ /*SELECT country, score --throws error as score is not either in aggregate function 
+ FROM customers           --or the GROUPBY claude. 
+ GROUP BY country */
+ 
