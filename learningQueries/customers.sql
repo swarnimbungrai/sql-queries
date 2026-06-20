@@ -63,4 +63,6 @@ ORDER BY score DESC
  /*SELECT country, score (throws error as score is not either in aggregate function or the GROUPBY clause.)
  FROM customers           
  GROUP BY country */
- 
+ SELECT country 
+ FROM customers
+ GROUP BY country
