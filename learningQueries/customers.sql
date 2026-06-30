@@ -68,8 +68,9 @@ ORDER BY score DESC
  GROUP BY country
 
  /*Find the total score and total number of customer for each country */
- SELECT country, SUM(score) AS TotalScore, COUNT(id) AS NoOfCustomer
+ SELECT country, SUM(score) AS TotalScore, COUNT(id) AS NoOfCustomer --count counts the total numbers of customers available in each country
  FROM customers
  GROUP BY country
+
 
  
